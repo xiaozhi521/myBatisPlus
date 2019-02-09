@@ -113,7 +113,7 @@ public class MPTest {
         employee.setLastName("MP1");
         employee.setEmail("mp1@163.com");
         employee.setGender(1);
-        employee.setAge(22);
+        employee.setAge(28);
 //        employee.setSalary(20000.0);
         //插入到数据库
         // insert方法在插入时， 会根据实体类的每个属性进行非空判断，只有非空的属性对应的字段才会出现到SQL语句中

@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="code_generator" />
         <module name="myBatisPlus_ActicityRecord" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="code_generator" target="1.5" />
       <module name="myBatisPlus" target="1.5" />
       <module name="myBatisPlus_ActicityRecord" target="1.5" />
       <module name="myBatisPlusBase" target="1.5" />

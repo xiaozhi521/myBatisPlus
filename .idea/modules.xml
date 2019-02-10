@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/code_generator/code_generator.iml" filepath="$PROJECT_DIR$/code_generator/code_generator.iml" />
       <module fileurl="file://$PROJECT_DIR$/myBatisPlus.iml" filepath="$PROJECT_DIR$/myBatisPlus.iml" />
       <module fileurl="file://$PROJECT_DIR$/myBatisPlusBase/myBatisPlusBase.iml" filepath="$PROJECT_DIR$/myBatisPlusBase/myBatisPlusBase.iml" />
       <module fileurl="file://$PROJECT_DIR$/myBatisPlus_ActicityRecord/myBatisPlus_ActicityRecord.iml" filepath="$PROJECT_DIR$/myBatisPlus_ActicityRecord/myBatisPlus_ActicityRecord.iml" />

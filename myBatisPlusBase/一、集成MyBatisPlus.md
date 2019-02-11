@@ -87,7 +87,7 @@
 		<property name="dataSource" ref="dataSource"></property>
 		<property name="configLocation" value="classpath:mybatis-config.xml"></property>
 		<!-- 别名处理 -->
-		<property name="typeAliasesPackage" value="com.atguigu.mp.beans"></property>		
+		<property name="typeAliasesPackage" value="com.mqf.study.beans"></property>		
 		
 		<!-- 注入全局MP策略配置 -->
 		<property name="globalConfig" ref="globalConfiguration"></property>
@@ -114,7 +114,7 @@
 		配置mybatis 扫描mapper接口的路径
 	 -->
 	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-		<property name="basePackage" value="com.atguigu.mp.mapper"></property>
+		<property name="basePackage" value="com.mqf.study.mapper"></property>
 	</bean>
 	
 </beans>
